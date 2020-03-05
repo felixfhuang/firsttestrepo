@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="HTTP Connection Manager"
+  DTS:DTSID="{F7C69A78-853E-4636-BC19-C70A231A81F6}"
+  DTS:CreationName="HTTP">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="http://services.land.vic.gov.au/water_register/map/parcelLocations?jsoncallback=?&amp;format=xml&amp;spilist=1\PS314005">
+      <DTS:HttpConnection
+        DTS:ServerURL="http://services.land.vic.gov.au/water_register/map/parcelLocations?jsoncallback=?&amp;format=xml&amp;spilist=1\PS314005">
+        <DTS:Property
+          DTS:Name="ServerPassword"
+          Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzA5K5ryF4kSTiHWj6MFamwAAAAACAAAAAAADZgAAwAAAABAAAAB1Y4wnGf0aJlFdAyLQVxKfAAAAAASAAACgAAAAEAAAAKDy2Nk/hlaEgKo+jywpN0p4AAAAJCEBHVk0PgvQj9XeEodh172D17yfKnlUe0Foe7c/X462G9/DUZBUAZEWZbQB67NuXOd+Gznrx9bAR7DWUJSFPrEZX6ZD4gANzpmreGyBToSISu3JHFtj22PBPPibVE1tHzjI+6jN9LaoGcjfYOiiw2GekVX/88PvFAAAABRH1JOhcOjf7F1xGnKZ5PctM4jV</DTS:Property>
+        <DTS:Property
+          DTS:Name="ProxyPassword"
+          Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzA5K5ryF4kSTiHWj6MFamwAAAAACAAAAAAADZgAAwAAAABAAAABZrykSBqsCfYP4xSSgzXSmAAAAAASAAACgAAAAEAAAAOO1lwqMa4yzpUBFBlr3B6J4AAAA4O9/CvOPP9VYkb4c6r6+n3ZNEmTdPhXtVSKLiSzEmWROrctmCOkgh040MZTskQAvNKHidSU9SLrbMzXWNLtaA2VOuhIzCBbeZ/pzDGnzpBHHdjQV3ae6CPoK+2WtzBIUibNN/mHhypyAIq7h5LTu9Di4zbMKuRsoFAAAAC+f+z45LtwBVU3xIoDLpuWc0m5r</DTS:Property>
+      </DTS:HttpConnection>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
